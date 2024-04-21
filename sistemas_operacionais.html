@@ -1,0 +1,163 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <title>WIKIPEDIA - Sistemas Operacionais</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.jpg" alt="Logo">
+        </div>
+
+          <div class="search-box">
+             <input type="text" placeholder="Search Wifipedia...">
+             <button type="submit">Search</button>
+          </div> 
+
+        <div class="user-links">
+            <a href="home.html">Home</a>
+            <a href="#">Login</a>
+            <a href="#">About</a>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <aside class="left-sidebar">
+           <div class="accordion">
+            <details class="accordion-item" open>
+                <summary class="accordion-item-summary">Aplicações Concorrentes</summary>
+                <div class="accordion-item-content">
+                    <ul>
+                        <li>Definição</li>
+                        <li>Benefícios  da programação com múltiplos threads</li>
+                    </ul>
+                </div>
+            </details>
+            <details class="accordion-item" open>
+                <summary class="accordion-item-summary">Gerência de memória</summary>
+                <div class="accordion-item-content">
+                    <ul>
+                        <li>Hierarquia de Armazenamento</li>
+                        <li>Modos de Gerenciamento de Memória</li>
+                    </ul>
+                </div>
+            </details>
+            <details class="accordion-item" open>
+                <summary class="accordion-item-summary">Gerenciamento de entrada e saída</summary>
+                <div class="accordion-item-content">
+                    <ul>
+                        <li>Hardware de Entrada e Saída</li>
+                        <li>Gerenciamento de Entrada e Saída</li>
+                    </ul>
+                </div>
+            </details>
+            <details class="accordion-item" open>
+                <summary class="accordion-item-summary">Sistemas de arquivos em sistemas operacionais</summary>
+                <div class="accordion-item-content">
+                    <ul>
+                        <li>Sistemas de Arquivos nos Principais Sistemas Operacionais</li>
+                        <li>Instalação de Máquinas Virtuais Linux</li>
+                    </ul>
+                </div>
+            </details>
+        <details class="accordion-item" open>
+            <summary class="accordion-item-summary">Sistemas operacionais de outros equipamentos</summary>
+            <div class="accordion-item-content">
+                <ul>
+                    <li>Funcionalidades do Sistema Operacional Android</li>
+                    <li>Instalação do Android em uma Máquina Virtual</li>
+                </ul>
+            </div>
+        </details>
+    </div>
+    </aside>
+
+    <div class="right-content">
+        <h1>SISTEMAS OPERACIONAIS</h1>
+        <p> From Wifipedia, the free encyclopedia</p>
+        <div class="article">
+            <div class="article-content">
+                <p><br>
+                    Fundamentalmente, um sistema operacional é um software, que pode ser o Linux, Windows, Android, macOS, UNIX, entre outros. No entanto, ele não resume aquilo que seus olhos conseguem ver ou ao que você consegue interagir. Em outras palavras, é um programa que conversa diretamente com o hardware da sua máquina. 
+                </p>
+
+                <h2>Aplicações Concorrentes</h2>
+                <h4>Definição</h4>
+                <p>As aplicações concorrentes referem-se à capacidade de executar múltiplos processos de forma simultânea em um sistema computacional. Isso permite que diferentes tarefas sejam realizadas ao mesmo tempo, aumentando a eficiência e a capacidade de resposta do sistema.</p>
+                <h4>Benefícios da programação com múltiplos threads</h4>
+                <p>
+                    A programação com múltiplos threads oferece diversos benefícios, incluindo aumento da capacidade de resposta para o usuário, compartilhamento eficiente de recursos, economia de recursos do sistema e escalabilidade em arquiteturas multiprocessadoras. Isso permite que as aplicações aproveitem ao máximo os recursos disponíveis e forneçam um desempenho otimizado mesmo em ambientes com alta carga de trabalho.
+                </p>
+
+                <h2>Gerência de memória</h2>
+                <h4>Hierarquia de Armazenamento</h4>
+                <p>A hierarquia de memória organiza o armazenamento de um computador com base no tempo de resposta. Isso significa que diferentes tipos de memória têm diferentes velocidades de acesso e capacidades. Por exemplo, a memória cache é mais rápida, mas tem menor capacidade do que a memória RAM. Essa hierarquia afeta o desempenho do computador e é crucial para o design da arquitetura do sistema.</p>
+
+                <h4>Modos de Gerenciamento de Memória</h4>
+                <p>O gerenciamento de memória é a função de um sistema operacional que lida com a memória principal e move os processos entre a memória principal e o disco durante a execução. Isso inclui a alocação de memória para processos, o controle de quanto tempo cada processo pode usar a memória e a liberação de memória quando não é mais necessária.</p>
+
+                <h2>Gerenciamento de entrada e saída</h2>
+                <h4>Hardware de Entrada e Saída</h4>
+                <p>Descreve como o hardware de entrada e saída permite a interação entre computadores e o mundo externo, classificando dispositivos como periféricos.
+                Divide os dispositivos em orientados a bloco e orientados a caractere, explicando suas diferenças e exemplos de cada tipo.</p>
+                <h4>Gerenciamento de Entrada e Saída</h4>
+                <p>Detalha os dispositivos orientados a bloco e a caractere, destacando sua operação e exemplos comuns.
+                    Explica o papel dos controladores de dispositivos na comunicação entre dispositivos e o sistema operacional, incluindo o uso de barramentos para otimização.
+                    Descreve o funcionamento do controlador DMA, que permite o acesso direto à memória para transferência eficiente de dados.</p>
+               
+                <h2>Sistemas de arquivos em sistemas operacionais</h2>
+                <h4>Sistemas de Arquivos nos Principais Sistemas Operacionais</h4>
+                <p>São explorados os sistemas de arquivos mais utilizados no ambiente Windows, como FAT (FAT16 e FAT32), NTFS e HPFS. Cada sistema é detalhadamente descrito, incluindo sua história, capacidades técnicas, limitações e evolução ao longo do tempo.
+                O texto também apresenta os sistemas de arquivos nativos do Linux, com destaque para a família de sistemas EXT (EXT2, EXT3 e EXT4). São discutidas suas características distintas, como journaling para garantir a integridade dos dados, desempenho e suporte a recursos avançados.</p>
+                <h4>Instalação de Máquinas Virtuais Linux</h4>
+                <p>São fornecidas instruções passo a passo para instalar o Linux em uma máquina virtual usando o VirtualBox, um software de virtualização popular. O processo começa com o download e instalação do VirtualBox, seguido pela configuração da máquina virtual e a instalação do sistema operacional Linux.
+                Cada etapa do processo é detalhada para orientar o leitor, desde a criação da máquina virtual até a configuração da sequência de inicialização e a instalação do Linux a partir de um arquivo de imagem (.ISO).</p>
+
+                <h2>Sistemas operacionais de outros equipamentos</h2>
+                <h4>Funcionalidades do Sistema Operacional Android</h4>
+
+                <p>Desenvolvido pela Android Inc. e adquirido pelo Google em 2005, o Android é o sistema operacional mais usado em dispositivos móveis.
+                O Android utiliza o kernel do Linux, adaptado para atender às necessidades do Google.
+                O sistema oferece várias funcionalidades essenciais, incluindo navegador integrado, gráficos 2D e 3D, Bluetooth, Wi-Fi, SQLite, câmera, GPS, bússola e acelerômetro.
+                Os desenvolvedores podem criar aplicativos para o Android usando o Android Software Development Kit (SDK), que inclui um depurador, bibliotecas, emulador e documentação.
+                A arquitetura do Android é dividida em quatro camadas: aplicação, framework de aplicativos, bibliotecas e serviços, e Android runtime.
+                 </p>
+                 <h4>Instalação do Android em uma Máquina Virtual:</h4>
+                  <p>Uma opção para testar o Android é instalá-lo em uma máquina virtual usando software como o     VirtualBox.
+                    O processo envolve criar uma nova máquina virtual, definir configurações como tamanho de memória e criar um disco virtual.
+                    Após a configuração, o Android pode ser iniciado na máquina virtual e instalado a partir de um arquivo .ISO.
+                    Durante a instalação, o usuário define partições de disco, tipo de sistema de arquivos e outras opções de configuração.
+                    Após a instalação bem-sucedida, o Android pode ser inicializado na máquina virtual para teste e desenvolvimento de aplicativos.</p>
+            </div>
+            <div class="article-image">
+
+               <!-- Fact Sheet -->
+               <div class="fact-sheet">
+                <h3>Sistemas Operacionais</h3>
+                <img src="imgs/image1.jpeg" alt="Image 1" width="100%">
+                <h3>Fatos sobre Sistemas Operacionais</h3>
+                <ul>
+                    <li class="fact-group"><strong>Definição:</strong> Sistema operacional é um programa que conversa diretamente com o hardware da sua máquina.</li>
+                    <li class="fact-group"><strong>Principais Sistemas Operacionais</strong> Os mais populares são o Microsoft Windows, o Apple macOS e o Linux (sistema de código aberto com centenas de distribuições para computadores pessoais, supercomputadores, servidores, roteadores e sistemas embarcados).</li>
+                    <li class="fact-group"><strong>Microsoft Windows vs Linux</strong>O Microsoft Windows é um sistema operacional comercial da Microsoft para computadores pessoais, enquanto o Linux é um sistema operacional gratuito e de código aberto. No que se refere a facilidade de uso, o Windows é considerado mais fácil de usar, o seu design é mais intuitivo e mais popular do que o Linux. Além do mais, o Windows tem uma maior quantidade de aplicativos disponíveis, enquanto o Linux tende a ter menos aplicativos desenvolvidos para ele. Quanto ao quesito segurança, o Linux tende a ser mais seguro, uma vez que é menos suscetível a vírus e outras ameaças.</li>
+                </ul>
+                <ul>
+                    <li><strong>Category:</strong> Technology</li>
+                    <li><strong>Published:</strong> April 22, 2024</li>
+                    <li><strong>Author:</strong> xxxx Name</li>
+                    <li><strong>Views:</strong> 1,234</li>
+                    <li><strong>Shares:</strong> 567</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer></footer>
+</body>
+</html>
